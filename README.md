@@ -2,6 +2,7 @@
 
 Pokemon-app market
 first-step 
+- copy .env.example to .env
 - yarn install
 - yarn dev
 
