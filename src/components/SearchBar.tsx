@@ -67,8 +67,8 @@ export default function SearchBar({ handleSearch, handleType }: Props) {
   };
 
   return (
-    <div className="flex justify-between items-center w-full h-9 text-white">
-      <div className="text-lg">Choose Card</div>
+    <div className="flex lg:justify-between items-start w-full h-9 text-white lg:flex-row flex-col py-14 lg:pt-0">
+      <div className="text-lg lg:py-0 py-2">Choose Card</div>
       <div className="flex justify-between items-center gap-4">
         <div
           className="flex gap-1 justify-center items-center bg-[#1F1D2B] rounded-lg border border-[#393C49] px-4 py-2 cursor-pointer relative"

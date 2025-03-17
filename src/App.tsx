@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import SearchBar from "./components/SearchBar";
 import Content from "./components/Content";
 import SearchBox from "./components/SearchBox";
+import Cart from "./components/Cart";
 
 function App() {
   const [keySearch, setKeySearch] = useState<string>("");
@@ -23,6 +24,7 @@ function App() {
           keyByName={searchBYName}
         />
       </div>
+      <Cart />
     </div>
   );
 }

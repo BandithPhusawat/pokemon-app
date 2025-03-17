@@ -78,7 +78,7 @@ export default function Content({ keySearch, keyType, keyByName }: Props) {
   return (
     <div className="w-full h-[900px] overflow-x-auto scrollbar-hidden text-white flex flex-col items-center">
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 w-full lg:w-fit pt-6 lg:pt-0">
         {filteredCards.length > 0 ? (
           filteredCards.map((card, index) => (
             <Card key={`${card.id}-${index}`} card={card} />
